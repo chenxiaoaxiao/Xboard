@@ -59,7 +59,7 @@ docker compose up -d
 > - For older installations, replace `web` with `xboard`:
 ```bash
 cd Xboard
-docker compose pull && \
+docker compose pull && \    
 docker compose run -it --rm xboard php artisan xboard:update && \
 docker compose up -d
 ```
